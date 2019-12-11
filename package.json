@@ -5,22 +5,6 @@
   "engines": {
     "node": ">= 7.6.0"
   },
-  "now": {
-    "build": {
-      "env": {
-        "NODE_ENV": "production",
-        "DATABASE": "mongodb+srv://nico:tFpCk9KGGnOrOmlL@dang-thats-delicious-wk8vv.mongodb.net/test?retryWrites=true&w=majority",
-        "MAIL_USER": "0a379633f2f921",
-        "MAIL_PASS": "0a613cbc1d2b15",
-        "MAIL_HOST": "smtp.mailtrap.io",
-        "MAIL_PORT": "2525",
-        "PORT": "80",
-        "MAP_KEY": "AIzaSyBEciL-pWuBucTe7-9npwhoUnNl1n89Aeg",
-        "SECRET": "snickers",
-        "KEY": "sweetsesh"
-      }
-    }
-  },
   "scripts": {
     "build": "node ./start.js",
     "watch": "nodemon ./start.js --ignore public/",
